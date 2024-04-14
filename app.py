@@ -1,4 +1,5 @@
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1' 
 import time
 import numpy as np
 import cv2
